@@ -1,0 +1,54 @@
+.conatiner{
+    max-width: 50rem;
+    margin:auto;
+}
+
+.about_section{
+    display:flex;
+ /* border:solid black; */
+ height:auto;
+}
+
+.about_info{
+ /* border:solid green; */
+ order:1;
+ flex:1;
+
+ margin-top: 3rem;
+}
+
+
+.content{
+    text-align: center;;
+}
+.about_pic{
+    /* border:solid red; */
+     order:2;
+     flex:1;
+    margin-top: 3rem;
+}
+.content h1{
+    font-size: 50px;
+    letter-spacing: 0.25rem;
+    text-align: center;
+    /* border:solid #333; */
+}
+
+.content p{
+    font-size: 18px;
+    letter-spacing: 0.025rem;
+    line-height: 30px;;
+    text-align: center;
+    /* border:solid #333; */
+}
+
+.info{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 15px;
+    width:10vw;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+}
